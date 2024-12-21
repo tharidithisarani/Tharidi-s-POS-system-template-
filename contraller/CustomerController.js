@@ -236,7 +236,7 @@ function formValid() {
                     return true;
                 } else {
                     $("#txtCusSalary").css('border', '2px solid red');
-                    $("#lblcussalary").text("Cus Salary is a required field : Pattern 100.00 or 100");
+                    $("#lblcussalary").text("Contact Number is a required field: Pattern 1234567890");
                     return false;
                 }
             } else {
